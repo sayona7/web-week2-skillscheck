@@ -1,0 +1,94 @@
+/* CSS file for mockup skills check page
+Author: Weronika Bakanowicz
+ */
+
+/* Main styling */
+nav {
+    background-color: gray;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Class Styling */
+
+.header {
+    background-color: black;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+}
+
+.main-section {
+    width: 100%;
+    height: 60%;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+}
+
+.container, .last-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.squares {
+    background-color: palegreen;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 40px;
+}
+
+.rectangles {
+    background-color: orange;
+    width: 350px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: darkslateblue;
+    margin: 0 auto;
+    width: 100%;
+    height: 5%;
+    clear: both;
+    position: absolute;
+    top: 100%;
+}
+
+
+
+/* ID Styling */
+
+#h1-nav {
+    font-size: 35px;
+}
+
+#title {
+    color: yellow;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    top: 90px;
+    font-size: 5vh;
+}
+
+#content {
+    width: 40%;
+    height: 45px;
+}
+
+#photo {
+    width: 200px;
+}
