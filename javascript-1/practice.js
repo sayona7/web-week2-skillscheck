@@ -88,12 +88,9 @@ const middleNums = numbers.slice(1, 4);
 // your current state or providence of residence as a string. The value of age should be your age as a number.
 // greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values.
 
-// const me = {
-// 	firstName: "Veronica",
-// 	state: "TX",
-// 	age: 23,
-// 	greeter: `Hello! My name is ${firstName} and I live in ${state}`
-// }
+const me = { firstName: "Veronica", state: "TX", age: 23, greeter: function () {
+	return "Hello! My name is " + firstName + " and I live in " + state;	
+	}}
 
 //////////////////PROBLEM 12////////////////////
 
