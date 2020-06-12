@@ -11,6 +11,12 @@ nav {
     color: white;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    padding: 10px;
+
 }
 
 /* Class Styling */
@@ -22,6 +28,12 @@ nav {
     display: flex;
     position: absolute;
     flex-direction: column;
+}
+
+.spans {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
 }
 
 .main-section {
@@ -71,6 +83,8 @@ nav {
 
 #h1-nav {
     font-size: 35px;
+    margin: 10px;
+    padding-left: 20px;
 }
 
 #title {
